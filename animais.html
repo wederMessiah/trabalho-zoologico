@@ -1,85 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animais</title>
+    <title>Menu Igual ao Exemplo</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="container-Animais2">
-        <!-- O ícone do menu abre o menu lateral -->
-        <div class="menu-icon" onclick="toggleMenu()">☰</div>
 
-        <!-- Menu lateral que aparece ao clicar no ícone -->
-        <nav class="menu" id="menu">
-            <div class="close-icon" onclick="toggleMenu()">✖</div>
+<body>
+    <header>
+       
+        <div id="logo"><img src="logo_menu.jpg"width="60"></div>
+        <p>Explore e se Diverta!</p>
+        <nav id="menu">
+        
             <ul>
                 <li><a href="index.html">Menu</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="animais.html">Animais</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Parceiros</a></li>
-                <li><a href="#">NY por Você</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-
-        <div class="icons">
-            <div id="login-btn" class="fas fa-user"></div>
-            <div id="menu-btn" class="fas fa-bars" onclick="toggleMenu()"></div>
-        </div>
-
-        <p class="texto-centralizado">Cerca de 400 animais de 100 diferentes espécies</p>
+      
     </header>
 
-    <!-- Botões de navegação para seções -->
-    <nav>
-        <button id="btn-aves"><a href="#aves">AVES</a></button>
-        <button id="btn-mamiferos"><a href="#mamiferos">MAMÍFEROS</a></button>
-        <button id="btn-reptais"><a href="#reptais">RÉPTEIS</a></button>
-    </nav>
-
-    <!-- Seção de animais -->
-    <section class="animais" id="animais-section">
-        <div class="card AVES" id="aves">
-            <img src="#" alt="Arara vermelha">
-            <h2>ARARA</h2>
-        </div>
-
-        <div class="card MAMÍFEROS" id="mamiferos">
-            <img src="Leão.jpg" alt="Leão">
-            <h2>Leão</h2>
-        </div>
-
-        <div class="card RÉPTEIS" id="reptais">
-            <img src="jacare.jpg" alt="Jacaré">
-            <h2>Jacaré</h2>
-        </div>
-
-        <div class="card RÉPTEIS">
-            <img src="iguana.jpg" alt="Iguana">
-            <h2>Iguana</h2>
-        </div>
-
-        <div class="card RÉPTEIS">
-            <img src="cobra.jpg" alt="Cobra">
-            <h2>Cobra</h2>
-        </div>
+    <section class="container">
+        
     </section>
+        
+    <h1>Benvindo-Zoológico de Guarulhos</h1>
+    <main>
+    <p>Explore e se Diverta!</p>
+    <main></main>
 
-    <!-- Script JavaScript para abrir nova página e controlar o menu -->
-    <script>
-        // Função para abrir uma nova página (exemplo: nova_pagina.html)
-        function openNewPage() {
-            window.location.href = 'nova_pagina.html'; // Substitua 'nova_pagina.html' pela página que você quer abrir
-        }
+    <footer>
+        <p>© 2025 Todos os direitos reservados.</p>
+    </footer>
 
-        // Função para abrir e fechar o menu lateral
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.classList.toggle('open');
-        }
-    </script>
+
 </body>
 </html>
